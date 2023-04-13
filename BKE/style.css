@@ -1,14 +1,15 @@
 * {
     background-color: rgba(0, 0, 0, 0.147);
-    }
-    h1 {
+}
+
+h1 {
     font-family: 'Roboto', sans-serif;
     padding-bottom: 2cm;
     text-align: center;
-    }
-    
-    
-    td {
+}
+
+
+td {
     border: 2px solid #333;
     height: 100px;
     width: 100px;
@@ -17,27 +18,30 @@
     font-family: 'Roboto', sans-serif;
     font-size: 70px;
     cursor: pointer;
-    }
-    
-    
-    table {
+}
+
+
+table {
     position: absolute;
     left: 50%;
     margin-left: -155px;
     top: 50px;
-    }
-    
-    
-    a {
+    margin-top: 12rem;
+}
+
+
+a {
     color: gold;
-    }
-    
-    
-    .endgame {
+    float: right;
+    font-size: xx-large;
+}
+
+
+.endgame {
     display: none;
     width: 200px;
     top: 120px;
-    background-color: rgba(205,133,63, 0.8);
+    background-color: rgba(205, 133, 63, 0.8);
     position: absolute;
     left: 50%;
     margin-left: -100px;
@@ -47,6 +51,4 @@
     border-radius: 5px;
     color: white;
     font-size: 2em;
-    }
-    
-    
+}
