@@ -1,6 +1,6 @@
-var board = ['', '', '', '', '', '', '', '', ''];
-var player = 'X';
-var gameover = false;
+let board = ['', '', '', '', '', '', '', '', ''];
+let player = 'X';
+let gameover = false;
 
 function play(square, index) {
   if (board[index] === '' && !gameover) {
@@ -19,7 +19,7 @@ function play(square, index) {
 }
 
 function checkWin() {
-  var lines = [
+  let lines = [
     [0, 1, 2],
     [3, 4, 5],
     [6, 7, 8],
@@ -29,8 +29,8 @@ function checkWin() {
     [0, 4, 8],
     [2, 4, 6]
   ];
-  for (var i = 0; i < lines.length; i++) {
-    var [a, b, c] = lines[i];
+  for (let i = 0; i < lines.length; i++) {
+    let [a, b, c] = lines[i];
     if (board[a] !== '' && board[a] === board[b] && board[b] === board[c]) {
       return true;
     }

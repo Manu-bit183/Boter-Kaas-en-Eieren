@@ -15,7 +15,7 @@
     height: 100%;
     z-index: -1;
     opacity: 0.8;
-    background-image: url(https://th.bing.com/th/id/OIP.N71LY63KUx-Z_TfYRsStpAHaEK?pid=ImgDet&rs=1);
+    background-image: url(https://cdn.pixabay.com/photo/2019/04/18/22/38/manipulation-4138285_1280.jpg);
     background-size: cover;
     animation: background-animation 20s infinite;
 }
@@ -50,6 +50,7 @@
     font-size: 64px;
     font-weight: bold;
     display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
     cursor: pointer;
