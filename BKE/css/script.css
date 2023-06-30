@@ -1,4 +1,4 @@
-.container:before {
+.body:before {
     content: "";
     position: absolute;
     top: 0;
@@ -9,7 +9,7 @@
     opacity: 0.8;
     background-image: url(https://i.ytimg.com/vi/rAZC_jDT5z8/maxresdefault.jpg);
     background-size: cover;
-    animation: background-animation 20s infinite;
+    animation: background-animation 15s infinite;
 }
 
 @keyframes background-animation {
@@ -24,4 +24,9 @@
     100% {
         background-position: 0 0;
     }
+}
+
+a {
+    margin-top: 12rem;
+    text-align: center;
 }
